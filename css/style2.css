@@ -17,9 +17,13 @@ body {
     line-height: 24px;
 }
 
+#wrap_wrap {
+    min-width: 1800px;
+    
+}
 
 .header {
-    background-color: aqua;
+    /* background-color: aqua; */
     margin: 0 auto;
     height: 90px;
     background: url(../image/logom.jpg) center no-repeat;
@@ -29,6 +33,7 @@ body {
 #wrap {
     display: flex;
     margin: 0 300px;
+    justify-content: space-between;
 }
 
 #leftwrap {
